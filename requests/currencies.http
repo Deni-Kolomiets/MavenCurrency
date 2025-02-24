@@ -1,0 +1,2 @@
+GET http://localhost:8083/currencies
+Accept: application/json
