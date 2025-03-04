@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet(name = "UpdateCurrencyServlet", urlPatterns = "/updateCurrency")
+@WebServlet(urlPatterns = "/updateCurrency")
 public class UpdateCurrencyServlet extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet(name = "MainPageServlet", urlPatterns = {"/"})
+@WebServlet(urlPatterns = {"/"})
 public class MainPageServlet extends HttpServlet {
 
 
@@ -17,10 +17,8 @@ public class MainPageServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String path = "/index1.jsp";
 
-        // Получаем RequestDispatcher для перенаправления запроса
         RequestDispatcher dispatcher = req.getRequestDispatcher(path);
 
-        // Перенаправляем запрос и ответ на указанный путь
         dispatcher.forward(req, resp);
     }
 

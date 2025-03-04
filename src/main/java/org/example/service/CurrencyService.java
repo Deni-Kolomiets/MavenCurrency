@@ -43,6 +43,8 @@ public class CurrencyService {
                 );
                 currencies.add(currency);
             }
+            System.out.println(currencies + "Сервис");
+            return currencies;
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -82,6 +84,16 @@ public class CurrencyService {
             return null;
     }
 
+
     public void updateCurrency(int id, String code, String fullName, String sign) {
+        /*
+        String query = "SELECT * FROM currencies WHERE code = ?";
+        try (Connection connection = DatabaseConnectionManager.getConnection(JDBC_URL);
+             PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+
+        }
+
+         */
     }
+
 }

@@ -1,3 +1,83 @@
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-04T205657.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-04T204757.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-04T204640.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-04T202605.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-02T203557.200.json
+
+###
+
+GET http://localhost:8083/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=283420E80A6AD30A3B21B9B79A8EAC6A
+
+<> 2025-03-01T153327.200.html
+
+###
+
+GET http://localhost:8083/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=18C3ABA2F882B895EF42362CFD2B0BEC
+
+<> 2025-02-28T230735.200.html
+
+###
+
+GET http://localhost:8083/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=28A5387F9CBF474591DDDECAA9CD35F9
+
+<> 2025-02-26T230855.200.html
+
+###
+
 GET http://localhost:8083/currencies
 Accept: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1

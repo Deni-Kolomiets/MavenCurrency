@@ -1,2 +1,2 @@
-GET http://localhost:8083/currencies
+GET http://localhost:8083/MavenCurrencies/currencies
 Accept: application/json
