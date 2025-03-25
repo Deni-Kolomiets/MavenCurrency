@@ -1,3 +1,248 @@
+POST http://localhost:8083/MavenCurrency/addCurrency?code=TUR&fullName=LIRA&sign=T
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+content-length: 0
+
+<> 2025-03-25T124920.500.html
+
+###
+
+POST http://localhost:8083/MavenCurrency/addCurrency?code=TUR&fullName=LIRA&sign=T
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+content-length: 0
+
+<> 2025-03-25T124859.500.html
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-24T000356.200.json
+
+###
+
+POST http://localhost:8083/MavenCurrency/addCurrency?id=4&code=TUR&fullName=LIRA&sign=T
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+content-length: 0
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=EUR
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-24T000337.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-24T000329.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=EUR
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-24T000318.500.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=EUR
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-20T093824.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-20T093802.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-20T093744.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-20T093733.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-20T093730.500.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=0502E69683DF87CEB7DB127A00C2731C
+
+<> 2025-03-20T093710.500.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getCurrencyByCode?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=DDAA3CDF2DF0409015EE97213BC888DB
+
+<> 2025-03-10T191047.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getCurrencyByCode?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=4B36C3648A3DAD223E521D4FD1460B7E
+
+<> 2025-03-10T181926.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getCurrencyByCode?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-10T181911.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=USD
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-10T181834.404.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=usd
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-10T181816.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-10T181207.200.html
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+content-length: 79
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency
+Accept: application/json
+
+<> 2025-03-10T181142.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-05T111233.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-05T111155.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-05T105113.200.json
+
+###
+
+GET http://localhost:8083/MavenCurrencies/currencies
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=9E7F5A7A081CCC87810D9988DF8CC292
+
+<> 2025-03-05T105109.200.json
+
+###
+
 GET http://localhost:8083/MavenCurrencies/currencies
 Accept: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.1

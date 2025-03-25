@@ -1,2 +1,12 @@
 GET http://localhost:8083/MavenCurrencies/currencies
 Accept: application/json
+
+###
+
+GET http://localhost:8083/MavenCurrency/getOneCurrency?code=EUR
+Accept: application/json
+
+###
+
+POST http://localhost:8083/MavenCurrency/addCurrency?code=TUR&fullName=LIRA&sign=T
+Accept: application/json

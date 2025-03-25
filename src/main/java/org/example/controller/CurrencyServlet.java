@@ -32,7 +32,6 @@ public class CurrencyServlet extends HttpServlet {
 
         try {
             List<Currency> currencies = currencyService.getCurrencies();
-            System.out.println(currencies + "Serblet");
             String jsonResponse = objectMapper.writeValueAsString(currencies);
 
             PrintWriter out = resp.getWriter();

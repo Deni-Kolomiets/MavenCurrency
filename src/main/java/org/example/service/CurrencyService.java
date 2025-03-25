@@ -1,5 +1,7 @@
 package org.example.service;
 
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
 import org.example.DatabaseConnectionManager;
 import org.example.Main;
 import org.example.database.DatabaseConnection;
@@ -13,10 +15,6 @@ import java.util.List;
 
 public class CurrencyService {
 
-//private static final String JDBC_URL = "jdbc:mysql://localhost:3306/currencies";
-//private static final String JDBC_USER = "root";
-//private static final String JDBC_PASSWORD = "12345";
-
     private static final String JDBC_URL = "jdbc:sqlite:C:/Dev/MavenCurrency/src/main/resources/database.db";
 
 
@@ -28,7 +26,13 @@ public class CurrencyService {
         ResultSet resultSet = null;
 
         try {
-            connection = DriverManager.getConnection(JDBC_URL);
+            Class.forName("org.sqlite.JDBC");
+            HikariConfig config = new HikariConfig();
+            config.setJdbcUrl("jdbc:sqlite:C:/Dev/MavenCurrency/src/main/resources/database.db");
+
+            HikariDataSource dataSource = new HikariDataSource(config);
+            connection = dataSource.getConnection();
+
             statement = connection.createStatement();
 
             String query = "SELECT * FROM main.currencies";
@@ -43,7 +47,6 @@ public class CurrencyService {
                 );
                 currencies.add(currency);
             }
-            System.out.println(currencies + "Сервис");
             return currencies;
 
         } catch (Exception e) {
@@ -61,8 +64,15 @@ public class CurrencyService {
     }
 
     public Currency getCurrencyByCode(String code) {
-        String query = "SELECT * FROM currencies WHERE code = ?";
-        try (Connection connection = DatabaseConnectionManager.getConnection();
+        //Class.forName("org.sqlite.JDBC");
+        HikariConfig config = new HikariConfig();
+        config.setJdbcUrl("jdbc:sqlite:C:/Dev/MavenCurrency/src/main/resources/database.db");
+
+        HikariDataSource dataSource = new HikariDataSource(config);
+
+        String query = "SELECT * FROM main.currencies WHERE code = ?";
+
+        try (Connection connection = dataSource.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(query)) {
 
             preparedStatement.setString(1, code);
@@ -82,6 +92,26 @@ public class CurrencyService {
             e.printStackTrace();
         }
             return null;
+    }
+
+    public void addCurrency(String code, String fullName, String sign) {
+        HikariConfig config = new HikariConfig();
+        config.setJdbcUrl("jdbc:sqlite:C:/Dev/MavenCurrency/src/main/resources/database.db");
+
+        HikariDataSource dataSource = new HikariDataSource(config);
+
+        String query = "INSERT IGNORE INTO main.currencies (code, fullName, sign) VALUES (?, ?, ?)";
+
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+            preparedStatement.setString(1, code);
+            preparedStatement.setString(2, fullName);
+            preparedStatement.setString(3, sign);
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 
 

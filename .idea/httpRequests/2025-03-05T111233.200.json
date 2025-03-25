@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "code": "USD",
+    "fullName": "Dollar",
+    "sign": "S"
+  },
+  {
+    "id": 2,
+    "code": "EUR",
+    "fullName": "Euro",
+    "sign": "E"
+  },
+  {
+    "id": 3,
+    "code": "RUB",
+    "fullName": "Rubl",
+    "sign": "R"
+  }
+]
